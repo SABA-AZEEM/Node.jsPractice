@@ -1,0 +1,5 @@
+The fs (file system) module in Node.js provides a way to work with the file system on your computer. It is a built-in module, which means you don't need to install any external dependencies to use it.
+The fs (file system) module in Node.js provides both synchronous and asynchronous methods for working with the file system:-
+Synchronous methods are blocking, which means that the code execution will pause until the operation is complete. For example, if you use the fs.readFileSync() method to read a file synchronously, the code will not continue until the file has been read completely.
+Asynchronous methods are non-blocking, which means that the code execution will continue immediately, and a callback function will be called when the operation is complete. For example, if you use the fs.readFile() method to read a file asynchronously, the code will continue executing, and the callback function will be called when the file has been read completely.
+Note:- detail in thapa technical folder

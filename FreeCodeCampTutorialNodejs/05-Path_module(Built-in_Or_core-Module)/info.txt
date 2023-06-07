@@ -1,0 +1,1 @@
+The path module in Node.js provides utilities for working with file and directory paths. It is a built-in module, which means you don't need to install any external dependencies to use it.

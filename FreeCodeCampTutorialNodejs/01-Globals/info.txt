@@ -1,0 +1,21 @@
+In node.js global variables and functions can be accessed anywhere in our code without having to explicitly require them.They are part of the global namespace and can be used by any module or function.
+Some examples of node.js objects are:
+
+1:-process:
+             A global object that provides information about the Node.js process running the current application. It also allows you to interact with the process, such as sending signals or setting environment variables.
+
+2:-console:
+             A global object that provides methods for logging messages to the console, such as console.log() and console.error().
+
+3:-setTimeout(), setInterval(), and clearTimeout(): 
+            Global functions that allow you to schedule a function to be executed after a certain amount of time or at regular intervals.
+
+4:-require():
+             A global function that is used to load modules in Node.js. It allows you to include code from other files or libraries.
+5:-__dirname:
+             path to current directory
+6:-__filename:
+              file name
+
+NOTE:-
+        It's important to note that while global variables and functions can be convenient, they can also lead to issues with code maintainability and testing. It's generally recommended to avoid using global variables as much as possible, and instead use explicit dependencies and module exports to create more modular and testable code.

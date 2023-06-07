@@ -1,0 +1,5 @@
+By default, nodemon only watches for changes in files with the .js extension. However, it can be configured to watch for changes in other file types as well.
+
+To configure nodemon to watch for changes in other file types, you can use the -e flag followed by a comma-separated list of file extensions. For example, to watch for changes in .js, .html, and .css files, you can use the following command:
+
+nodemon -e js,html,css 
